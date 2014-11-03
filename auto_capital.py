@@ -52,7 +52,7 @@ def word_magic(data, buffer, command):
         elif uinput.startswith("\\"):
             uinput = uinput.replace("\\", "", 1)
         # we don't want to capitalize basic URLs
-        elif uinput[:7] == "http://": # I'M TOO LAZY FOR REGEX MATCHING
+        elif uinput[:4] == "http": # I'M TOO LAZY FOR REGEX MATCHING
             return w.WEECHAT_RC_OK
         # if we point to a user, don't capitalise this
         elif isnick(buffer, uinput.split()[0][:-1]):
