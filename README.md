@@ -1,6 +1,8 @@
 weechat-plugins
 ===============
 
+/!\ NEED TO FETCH THE PLUGINS FROM WEECHAT'S REPOS /!\
+
 Collection of WeeChat plugins I made.
 
 | Name | Usage | Description |
